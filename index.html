@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/main.css">
+    <title>3D Notebook 📒</title>
+  </head>
+  <body>
+    <div id="3D"></div>
+    <canvas id="notebookCanvas"></canvas>
+    <button class="btn" id="next">
+      <img src="./src/pics/nextprevious.png" alt="">
+    </button>
+    <button class="btn" id="previous">
+      <img src="./src/pics/nextprevious.png" alt="">
+    </button>
+
+    <!-- <script type="module" src="./src/modules/main.js"></script> -->
+    <script type="module" src="./src/modules/scene.js"></script>
+    <script type="module" src="./src/modules/shapes.js"></script>
+    <script type="module" src="./src/modules/flipPage.js"></script>
+  </body>
+</html>
